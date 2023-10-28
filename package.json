@@ -1,0 +1,29 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "This is vicky's work space",
+  "main": "App.js",
+  "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mechanical-Coder1/Namaste-React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mechanical-Coder1/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/Mechanical-Coder1/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
