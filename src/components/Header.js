@@ -1,6 +1,8 @@
+import {useState} from "react"
 import { LOGO_URL } from "../utils/constants"
 
 const Header = () => {
+    const [login, setLogin] = useState("Login")
     return(
         <div className='header-container'>
             <div>
@@ -13,6 +15,7 @@ const Header = () => {
                     <li>About</li>
                     <li>Contact</li>
                     <li>Cart</li>
+                    <button className="login-btn">Login</button>
                 </ul>
             </div>
         </div>

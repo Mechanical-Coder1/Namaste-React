@@ -33,6 +33,7 @@
     cursor: pointer;
     color: orangered;
 }
+
 .form{
     display: flex;
     justify-content: center;
@@ -56,9 +57,10 @@
 }
 
 .res-card {
-    width: 200px;
+    width: 220px;
     /* height: 380px; */
-    padding: 5px;
+    /* flex: 0 1 calc(25%); */
+    padding: 10px;
     margin: 5px;
     background: #f0f0f0;
 }
@@ -96,3 +98,28 @@
     cursor: pointer;    
     border: 1px solid black;
 }
+
+.shimmer-container{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+
+}
+.shimmer{
+    width: 220px;
+    height: 380px;
+    /* flex: 0 1 calc(25%); */
+    padding: 10px;
+    margin: 5px;
+    background: #f0f0f0;
+}
+
+.login-btn{
+    padding: 0 20px;
+    /* border-radius: 10px; */
+    background-color: orange;
+    cursor: pointer;
+    border: none;
+}
+
