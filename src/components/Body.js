@@ -37,7 +37,7 @@ const Body = () => {
           <input
             type="text"
             className="input-box"
-            placeholder="Enter Your Delivery Location Please"
+            placeholder="Enter Restaurent Name Please"
             size="50"
             value={seachText}
             onChange={(e) => {
