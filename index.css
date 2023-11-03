@@ -1,4 +1,6 @@
-
+*{
+    /* box-sizing: border-box; */
+}
 
 .header-container{
     display: flex;
@@ -94,10 +96,10 @@
     
 }
 
-.top-btn:hover, .pop-btn:hover {
+/* .top-btn:hover, .pop-btn:hover {
     cursor: pointer;    
     border: 1px solid black;
-}
+} */
 
 .shimmer-container{
     margin-top: 200px;
@@ -123,3 +125,20 @@
     border: none;
 }
 
+.link-without-underline{
+text-decoration: none;
+/* color: black; */
+}
+
+.user-card{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.Cname {
+    color: orangered;
+    font-family: cursive;
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+}

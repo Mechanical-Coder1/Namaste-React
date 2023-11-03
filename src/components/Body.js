@@ -1,14 +1,17 @@
 import RestaurentCard from "../components/RestaurentCard";
 import { useState, useEffect } from "react";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   const [listOfRestaurents, setListOfRestaurents] = useState([]);
   const [filterdListOfRestaurents, setFilteredListOfRestaurents] = useState([]);
   const [seachText, setSearchText] = useState("");
 
+  
+
   useEffect(() => {
-    console.log("useEffect rendered");
     fetchingData();
   }, []);
 
@@ -18,7 +21,7 @@ const Body = () => {
     );
 
     const data = await response.json();
-    console.log(data);
+    // console.log(data);
     // console.log(data.data.cards[2].card.card.gridElements.infoWithStyle.restaurants)
     setListOfRestaurents(
       data.data.cards[2].card.card.gridElements.infoWithStyle.restaurants
@@ -27,6 +30,13 @@ const Body = () => {
       data.data.cards[2].card.card.gridElements.infoWithStyle.restaurants
     );
   };
+
+  const onLineStatus = useOnlineStatus()
+  console.log(onLineStatus);
+ 
+  if(onLineStatus === false){
+    return (<h1>Please check your internet connection!!</h1>)
+  } 
 
   return listOfRestaurents.length === 0 ? (
     <Shimmer />
@@ -60,34 +70,14 @@ const Body = () => {
           </button>
         </div>
         <div className="filter">
-          <button
-            className="top-btn"
-            onClick={() =>
-              setListOfRestaurents(
-                listOfRestaurents.filter((res) => res.info.avgRating > 4)
-              )
-            }
-          >
-            Top Rated Restaurants
-          </button>
+          
 
-          <button
-            className="pop-btn"
-            onClick={() =>
-              setListOfRestaurents(
-                listOfRestaurents.filter(
-                  (eachRes) => eachRes.info.avgRating > 4.5
-                )
-              )
-            }
-          >
-            Popular Restaurants
-          </button>
+          
         </div>
 
         <div className="res-container">
           {filterdListOfRestaurents.map((restaurent) => (
-            <RestaurentCard key={restaurent.info.id} resList={restaurent} />
+           <Link className="link-without-underline" key={restaurent.info.id} to={'/restaurants/'+ restaurent.info.id}> <RestaurentCard  resList={restaurent} /></Link>
           ))}
         </div>
       </div>
