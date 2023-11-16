@@ -1,0 +1,2566 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "37103",
+                            "name": "KFC",
+                            "city": "Hyderabad",
+                            "slugs": {
+                                "restaurant": "kfc-abids-road-abids-koti",
+                                "city": "hyderabad"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "56c9ab92bd79745fd152a30fa2525426",
+                            "locality": "Abids",
+                            "areaName": "Basheer Bagh",
+                            "costForTwo": "40000",
+                            "costForTwoMessage": "₹400 for two",
+                            "cuisines": [
+                                "Burgers",
+                                "Biryani"
+                            ],
+                            "avgRating": 4,
+                            "feeDetails": {
+                                "restaurantId": "37103",
+                                "fees": [
+                                    {
+                                        "name": "distance",
+                                        "fee": 20400
+                                    },
+                                    {
+                                        "name": "time"
+                                    },
+                                    {
+                                        "name": "special"
+                                    }
+                                ],
+                                "totalFee": 20400,
+                                "icon": "v1648208530/surgecreatives/info",
+                                "message": "Very Far (16.6 kms) | Additional delivery fee will apply"
+                            },
+                            "parentId": "547",
+                            "avgRatingString": "4.0",
+                            "totalRatingsString": "10K+ ratings",
+                            "sla": {
+                                "restaurantId": "37103",
+                                "deliveryTime": 63,
+                                "minDeliveryTime": 63,
+                                "maxDeliveryTime": 63,
+                                "lastMileTravel": 16.6,
+                                "serviceability": "NON_SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 46,
+                                "slaString": "63 MINS",
+                                "lastMileTravelString": "16.6 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2023-11-17 01:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "Get every item under 179",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "Get every item under 179",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Get every item under 179",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off upto ₹200 | Above ₹600",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "kfc-abids-road-abids-koti",
+                            "multiOutlet": true,
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "Yum Restaurants -(India)- PVT LTD|Ground Floor, H No: 5-9-322,T. S. No. 86, Ward No. 51, Block F, Abids Road, Opp SBH Bank, Gun Foundry, Hyderabad, Telangana 500001"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Burgers,Biryani"
+                                }
+                            ],
+                            "logo": "marketing-dashboard/carousel/jieoyuprsn64ubnthg0f",
+                            "totalRatings": 10000,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "Get every item under 179",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "Get every item under 179",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "Get every item under 179",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off upto ₹200 | Above ₹600",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ]
+                            },
+                            "type": "F",
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/37103"
+                            },
+                            "generalPurposeInfoListV2": [
+                                {
+                                    "cta": {
+                                        "info": {
+                                            "recordings": {}
+                                        },
+                                        "linkCta": {}
+                                    }
+                                }
+                            ],
+                            "ratingSlab": "RATING_SLAB_4",
+                            "availabilityServiceabilityMessage": "Does not deliver to your location",
+                            "orderabilityCommunication": {
+                                "title": {
+                                    "text": "Wish you were"
+                                },
+                                "subTitle": {
+                                    "text": "CLOSER!"
+                                },
+                                "message": {
+                                    "text": "This location is outside the outlet's delivery area",
+                                    "textColour": "negative"
+                                },
+                                "customIcon": {
+                                    "bgGradientColorStart": "#F64C41",
+                                    "bgGradientColorEnd": "#E53554"
+                                }
+                            },
+                            "hasBestsellerItems": true,
+                            "nearestOutletNudge": {
+                                "nearestOutletInfo": {
+                                    "siblingOutlet": {
+                                        "id": "17100",
+                                        "city": "0",
+                                        "slugs": {},
+                                        "areaName": "Bal Schander",
+                                        "costForTwo": "0",
+                                        "feeDetails": {},
+                                        "sla": {
+                                            "deliveryTime": 18,
+                                            "lastMileTravel": 2.6,
+                                            "slaString": "18 MINS",
+                                            "lastMileTravelString": "2.5 km",
+                                            "iconType": "ICON_TYPE_EMPTY"
+                                        },
+                                        "availability": {
+                                            "restaurantClosedMeta": {}
+                                        },
+                                        "aggregatedDiscountInfo": {
+                                            "visible": true
+                                        },
+                                        "badges": {},
+                                        "aggregatedDiscountInfoV2": {
+                                            "visible": true
+                                        },
+                                        "availabilityServiceabilityMessage": "Temporarily closed for delivery",
+                                        "cartOrderabilityNudgeBanner": {
+                                            "parameters": {},
+                                            "presentation": {}
+                                        }
+                                    }
+                                },
+                                "nearestOutletComms": {
+                                    "title": {
+                                        "text": "Don't worry! Try our outlet that's delivering"
+                                    },
+                                    "subTitle": {
+                                        "text": "Switch to the fastest alternate"
+                                    }
+                                }
+                            },
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "17.394994,78.47592099999997"
+                        },
+                        "analytics": {}
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+                        "sectionId": "POP_UP_CROUTON_MENU"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 1,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10,
+                                    "bottom": 16
+                                }
+                            },
+                            "scrollBar": {}
+                        },
+                        "id": "offerCollectionWidget_UX4",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "EVERY ITEM @ ₹179",
+                                            "offerTag": "DEAL OF DAY",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "8fc3af4d-55aa-4baa-9701-751c30416515"
+                                            ],
+                                            "expiryTime": "1970-01-01T15:29:03Z",
+                                            "offerType": "offers",
+                                            "restId": "37103",
+                                            "offerLogo": "offers/deal-of-day",
+                                            "descriptionTextColor": "#7302060C",
+                                            "showExpiryTimer": true
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "offersFilter": {
+                                                "attributes": {
+                                                    "displayText": "Offer"
+                                                }
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Recommended",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113951662",
+                                                            "name": "Classic Chicken Roll & Pepsi Combo",
+                                                            "category": "Chicken Roll",
+                                                            "description": "Street Syle Roll with Layerful parantha, single chicken strip, onions and two spicy sauce & Pepsi PET 475ml",
+                                                            "imageId": "b97f4414c5b8c2cd098f3f3ca2e9604f",
+                                                            "inStock": 1,
+                                                            "price": 17619,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.1",
+                                                                    "ratingCount": "10 ratings",
+                                                                    "ratingCountV2": "10"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113951642",
+                                                            "name": "Classic Chicken Roll",
+                                                            "category": "Chicken Roll",
+                                                            "description": "Street Syle Roll with Layerful parantha, single chicken strip, onions and two spicy sauce",
+                                                            "imageId": "ebd8e706049e4fd5ca79ecf708f8ecba",
+                                                            "inStock": 1,
+                                                            "price": 11905,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.9",
+                                                                    "ratingCount": "18 ratings",
+                                                                    "ratingCountV2": "18"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "114643891",
+                                                            "name": "Double Chicken Roll",
+                                                            "category": "Chicken Roll",
+                                                            "description": "Double fun with double chicken strip filling, layerful parantha onions and two spicy sauce",
+                                                            "imageId": "ebcda29a62123bbf8bb8a33bbe2ab847",
+                                                            "inStock": 1,
+                                                            "price": 16857,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.6",
+                                                                    "ratingCount": "19 ratings",
+                                                                    "ratingCountV2": "19"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "83205227",
+                                                            "name": "Classic Chicken Biryani Bucket",
+                                                            "category": "Biryani Bucket",
+                                                            "description": "New Hyderabadi style Biryani rice served with 1 pc Hot & Crispy Chicken & a Spicy Gravy [serves 1] ",
+                                                            "imageId": "efsersl4ydd4zyvxzgxk",
+                                                            "inStock": 1,
+                                                            "price": 22952,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "49 ratings",
+                                                                    "ratingCountV2": "49"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "83205226",
+                                                            "name": "Popcorn Chicken Biryani Bucket",
+                                                            "category": "Biryani Bucket",
+                                                            "description": "New Hyderabadi style Biryani rice served with signature Popcorn & a Spicy Gravy [serves 1] ",
+                                                            "imageId": "vshjsl2uwkg7pbvzsxas",
+                                                            "inStock": 1,
+                                                            "price": 22952,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "105 ratings",
+                                                                    "ratingCountV2": "105"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106400531",
+                                                            "name": "Smoky Grilled Biryani Bucket",
+                                                            "category": "Biryani Bucket",
+                                                            "description": "New Hyderabadi style Biryani rice served with 1 pc Smoky Red Chicken & a Spicy Gravy [serves 1] ",
+                                                            "imageId": "jj6nff5egmsiow80rmzn",
+                                                            "inStock": 1,
+                                                            "price": 22952,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "83205224",
+                                                            "name": "Veg Biryani Bucket",
+                                                            "category": "Biryani Bucket",
+                                                            "description": "New Hyderabadi style Biryani rice served with a rispy Veg Patty & a Spicy Gravy [serves 1] ",
+                                                            "imageId": "jq6qvlwioc4jxnqdocyv",
+                                                            "inStock": 1,
+                                                            "price": 19905,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.7",
+                                                                    "ratingCount": "13 ratings",
+                                                                    "ratingCountV2": "13"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "46635923",
+                                                            "name": "Veg Zinger Burger",
+                                                            "category": "Burger",
+                                                            "description": "Signature veg burger with crispy patties, veggies & a tangy sauce",
+                                                            "imageId": "gpwcikp1lmdd3gmet9ki",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18857,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "119 ratings",
+                                                                    "ratingCountV2": "119"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401772",
+                                                            "name": "Tandoori Zinger Burger",
+                                                            "category": "Burger",
+                                                            "description": "Chicken zinger with a  delicious tandoori sauce",
+                                                            "imageId": "im6rml9ioxkrjiafqyhw",
+                                                            "inStock": 1,
+                                                            "price": 20857,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.9",
+                                                                    "ratingCount": "12 ratings",
+                                                                    "ratingCountV2": "12"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401770",
+                                                            "name": "Classic Zinger Burger",
+                                                            "category": "Burger",
+                                                            "description": "Signature chicken burger made with a crunchy chicken fillet, veggies & a delicious mayo sauce",
+                                                            "imageId": "dhsbpft2dt77ermjtn9a",
+                                                            "inStock": 1,
+                                                            "price": 19905,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "7 ratings",
+                                                                    "ratingCountV2": "7"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401762",
+                                                            "name": "2 Veg Krisper Burgers",
+                                                            "category": "Burger",
+                                                            "description": "2 delicious veg value burgers - at a deal price",
+                                                            "imageId": "xqw1bhrkpm7rzaun0ryx",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 17905,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401766",
+                                                            "name": "2 Chicken Krisper Burgers",
+                                                            "category": "Burger",
+                                                            "description": "2 delicious chicken value burgers - at a deal price",
+                                                            "imageId": "ojrr9cfvsoimihjruvht",
+                                                            "inStock": 1,
+                                                            "price": 24857,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "18 ratings",
+                                                                    "ratingCountV2": "18"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "100966056",
+                                                            "name": "4 Pc Hot Wings & Medium Fries",
+                                                            "category": "Meals",
+                                                            "description": "4 Pieces of Hot Wings with medium Fries",
+                                                            "imageId": "tju9pxusa0ppuvb1shpn",
+                                                            "inStock": 1,
+                                                            "price": 27810,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.2",
+                                                                    "ratingCount": "15 ratings",
+                                                                    "ratingCountV2": "15"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "100966055",
+                                                            "name": "4 Pc Hot Wings & Regular Popcorn",
+                                                            "category": "Meals",
+                                                            "description": "4 Pieces of Hot Wings with Regular Popcorn",
+                                                            "imageId": "jdkgdirs1znbgvsxqex2",
+                                                            "inStock": 1,
+                                                            "price": 29429,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "56 ratings",
+                                                                    "ratingCountV2": "56"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "100966054",
+                                                            "name": "2 Veg Patty & Medium Fries",
+                                                            "category": "Meals",
+                                                            "description": "2 Pieces of Veg Patty with Medium Fries",
+                                                            "imageId": "tpcbqziukcvrv2u2g8gq",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 25429,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "100966053",
+                                                            "name": "1 Regular Popcorn & Medium Fries",
+                                                            "category": "Meals",
+                                                            "description": "Enjoy a Regular Popcorn with Medium Fries",
+                                                            "imageId": "xwdj25op2ugdkfz5jzyy",
+                                                            "inStock": 1,
+                                                            "price": 21429,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "7 ratings",
+                                                                    "ratingCountV2": "7"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "100966052",
+                                                            "name": "1 Hot & Crispy with Regular Popcorn",
+                                                            "category": "Meals",
+                                                            "description": "1 Piece Hot & Crispy with Regular Popcorn",
+                                                            "imageId": "vgekadsm4wrlpy4a4hdz",
+                                                            "inStock": 1,
+                                                            "price": 23048,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.7",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "100966051",
+                                                            "name": "1 Hot & Crispy with Medium Fries",
+                                                            "category": "Meals",
+                                                            "description": "1 Hot & Crispy with Medium Fries",
+                                                            "imageId": "g3048al3czj06kvygxah",
+                                                            "inStock": 1,
+                                                            "price": 21429,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401741",
+                                                            "name": "Regular Popcorn",
+                                                            "category": "Snack",
+                                                            "description": "Signature bite-sized boneless chicken, with special spices",
+                                                            "imageId": "ekczoyi57wriv1rqsmpl",
+                                                            "inStock": 1,
+                                                            "price": 11524,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.3",
+                                                                    "ratingCount": "21 ratings",
+                                                                    "ratingCountV2": "21"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "99453066",
+                                                            "name": "Peri Peri 3pc Chicken Strips",
+                                                            "category": "Snack",
+                                                            "description": "3 Spicy Peri Peri chicken strips ",
+                                                            "imageId": "fgtsqzqqxxtzxu0p0acw",
+                                                            "inStock": 1,
+                                                            "price": 17524,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "16 ratings",
+                                                                    "ratingCountV2": "16"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "type": "CATEGORY_TYPE_RECOMMENDED"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Chicken Roll",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113951662",
+                                                            "name": "Classic Chicken Roll & Pepsi Combo",
+                                                            "category": "Chicken Roll",
+                                                            "description": "Street Syle Roll with Layerful parantha, single chicken strip, onions and two spicy sauce & Pepsi PET 475ml",
+                                                            "imageId": "b97f4414c5b8c2cd098f3f3ca2e9604f",
+                                                            "inStock": 1,
+                                                            "price": 17619,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.1",
+                                                                    "ratingCount": "10 ratings",
+                                                                    "ratingCountV2": "10"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "113951642",
+                                                            "name": "Classic Chicken Roll",
+                                                            "category": "Chicken Roll",
+                                                            "description": "Street Syle Roll with Layerful parantha, single chicken strip, onions and two spicy sauce",
+                                                            "imageId": "ebd8e706049e4fd5ca79ecf708f8ecba",
+                                                            "inStock": 1,
+                                                            "price": 11905,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.9",
+                                                                    "ratingCount": "18 ratings",
+                                                                    "ratingCountV2": "18"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "114643891",
+                                                            "name": "Double Chicken Roll",
+                                                            "category": "Chicken Roll",
+                                                            "description": "Double fun with double chicken strip filling, layerful parantha onions and two spicy sauce",
+                                                            "imageId": "ebcda29a62123bbf8bb8a33bbe2ab847",
+                                                            "inStock": 1,
+                                                            "price": 16857,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.6",
+                                                                    "ratingCount": "19 ratings",
+                                                                    "ratingCountV2": "19"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Biryani Bucket",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "83205227",
+                                                            "name": "Classic Chicken Biryani Bucket",
+                                                            "category": "Biryani Bucket",
+                                                            "description": "New Hyderabadi style Biryani rice served with 1 pc Hot & Crispy Chicken & a Spicy Gravy [serves 1] ",
+                                                            "imageId": "efsersl4ydd4zyvxzgxk",
+                                                            "inStock": 1,
+                                                            "price": 22952,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "49 ratings",
+                                                                    "ratingCountV2": "49"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "83205226",
+                                                            "name": "Popcorn Chicken Biryani Bucket",
+                                                            "category": "Biryani Bucket",
+                                                            "description": "New Hyderabadi style Biryani rice served with signature Popcorn & a Spicy Gravy [serves 1] ",
+                                                            "imageId": "vshjsl2uwkg7pbvzsxas",
+                                                            "inStock": 1,
+                                                            "price": 22952,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "105 ratings",
+                                                                    "ratingCountV2": "105"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106400531",
+                                                            "name": "Smoky Grilled Biryani Bucket",
+                                                            "category": "Biryani Bucket",
+                                                            "description": "New Hyderabadi style Biryani rice served with 1 pc Smoky Red Chicken & a Spicy Gravy [serves 1] ",
+                                                            "imageId": "jj6nff5egmsiow80rmzn",
+                                                            "inStock": 1,
+                                                            "price": 22952,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "83205224",
+                                                            "name": "Veg Biryani Bucket",
+                                                            "category": "Biryani Bucket",
+                                                            "description": "New Hyderabadi style Biryani rice served with a rispy Veg Patty & a Spicy Gravy [serves 1] ",
+                                                            "imageId": "jq6qvlwioc4jxnqdocyv",
+                                                            "inStock": 1,
+                                                            "price": 19905,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.7",
+                                                                    "ratingCount": "13 ratings",
+                                                                    "ratingCountV2": "13"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Burger",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "46635923",
+                                                            "name": "Veg Zinger Burger",
+                                                            "category": "Burger",
+                                                            "description": "Signature veg burger with crispy patties, veggies & a tangy sauce",
+                                                            "imageId": "gpwcikp1lmdd3gmet9ki",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18857,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "119 ratings",
+                                                                    "ratingCountV2": "119"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401772",
+                                                            "name": "Tandoori Zinger Burger",
+                                                            "category": "Burger",
+                                                            "description": "Chicken zinger with a  delicious tandoori sauce",
+                                                            "imageId": "im6rml9ioxkrjiafqyhw",
+                                                            "inStock": 1,
+                                                            "price": 20857,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.9",
+                                                                    "ratingCount": "12 ratings",
+                                                                    "ratingCountV2": "12"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401770",
+                                                            "name": "Classic Zinger Burger",
+                                                            "category": "Burger",
+                                                            "description": "Signature chicken burger made with a crunchy chicken fillet, veggies & a delicious mayo sauce",
+                                                            "imageId": "dhsbpft2dt77ermjtn9a",
+                                                            "inStock": 1,
+                                                            "price": 19905,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "7 ratings",
+                                                                    "ratingCountV2": "7"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401762",
+                                                            "name": "2 Veg Krisper Burgers",
+                                                            "category": "Burger",
+                                                            "description": "2 delicious veg value burgers - at a deal price",
+                                                            "imageId": "xqw1bhrkpm7rzaun0ryx",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 17905,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401766",
+                                                            "name": "2 Chicken Krisper Burgers",
+                                                            "category": "Burger",
+                                                            "description": "2 delicious chicken value burgers - at a deal price",
+                                                            "imageId": "ojrr9cfvsoimihjruvht",
+                                                            "inStock": 1,
+                                                            "price": 24857,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "18 ratings",
+                                                                    "ratingCountV2": "18"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Meals",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "100966056",
+                                                            "name": "4 Pc Hot Wings & Medium Fries",
+                                                            "category": "Meals",
+                                                            "description": "4 Pieces of Hot Wings with medium Fries",
+                                                            "imageId": "tju9pxusa0ppuvb1shpn",
+                                                            "inStock": 1,
+                                                            "price": 27810,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.2",
+                                                                    "ratingCount": "15 ratings",
+                                                                    "ratingCountV2": "15"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "100966055",
+                                                            "name": "4 Pc Hot Wings & Regular Popcorn",
+                                                            "category": "Meals",
+                                                            "description": "4 Pieces of Hot Wings with Regular Popcorn",
+                                                            "imageId": "jdkgdirs1znbgvsxqex2",
+                                                            "inStock": 1,
+                                                            "price": 29429,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "56 ratings",
+                                                                    "ratingCountV2": "56"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "100966054",
+                                                            "name": "2 Veg Patty & Medium Fries",
+                                                            "category": "Meals",
+                                                            "description": "2 Pieces of Veg Patty with Medium Fries",
+                                                            "imageId": "tpcbqziukcvrv2u2g8gq",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 25429,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "100966053",
+                                                            "name": "1 Regular Popcorn & Medium Fries",
+                                                            "category": "Meals",
+                                                            "description": "Enjoy a Regular Popcorn with Medium Fries",
+                                                            "imageId": "xwdj25op2ugdkfz5jzyy",
+                                                            "inStock": 1,
+                                                            "price": 21429,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "7 ratings",
+                                                                    "ratingCountV2": "7"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "100966052",
+                                                            "name": "1 Hot & Crispy with Regular Popcorn",
+                                                            "category": "Meals",
+                                                            "description": "1 Piece Hot & Crispy with Regular Popcorn",
+                                                            "imageId": "vgekadsm4wrlpy4a4hdz",
+                                                            "inStock": 1,
+                                                            "price": 23048,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.7",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "100966051",
+                                                            "name": "1 Hot & Crispy with Medium Fries",
+                                                            "category": "Meals",
+                                                            "description": "1 Hot & Crispy with Medium Fries",
+                                                            "imageId": "g3048al3czj06kvygxah",
+                                                            "inStock": 1,
+                                                            "price": 21429,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Snack",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401741",
+                                                            "name": "Regular Popcorn",
+                                                            "category": "Snack",
+                                                            "description": "Signature bite-sized boneless chicken, with special spices",
+                                                            "imageId": "ekczoyi57wriv1rqsmpl",
+                                                            "inStock": 1,
+                                                            "price": 11524,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.3",
+                                                                    "ratingCount": "21 ratings",
+                                                                    "ratingCountV2": "21"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "99453066",
+                                                            "name": "Peri Peri 3pc Chicken Strips",
+                                                            "category": "Snack",
+                                                            "description": "3 Spicy Peri Peri chicken strips ",
+                                                            "imageId": "fgtsqzqqxxtzxu0p0acw",
+                                                            "inStock": 1,
+                                                            "price": 17524,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "16 ratings",
+                                                                    "ratingCountV2": "16"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401743",
+                                                            "name": "Medium Popcorn",
+                                                            "category": "Snack",
+                                                            "description": "Signature bite-sized boneless chicken, with special spices",
+                                                            "imageId": "ts7fhcu99uqvpo9nlxn5",
+                                                            "inStock": 1,
+                                                            "price": 16857,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "5.0",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401745",
+                                                            "name": "Large Popcorn",
+                                                            "category": "Snack",
+                                                            "description": "Signature bite-sized boneless chicken, with special spices",
+                                                            "imageId": "p6yghgzpqqlooi2lziyj",
+                                                            "inStock": 1,
+                                                            "price": 24857,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.1",
+                                                                    "ratingCount": "16 ratings",
+                                                                    "ratingCountV2": "16"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "66578222",
+                                                            "name": "2 pc Veg Patty",
+                                                            "category": "Snack",
+                                                            "description": "Delicious, crispy, veg add-on",
+                                                            "imageId": "jqoph7fsbttgimdcspc1",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 15524,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.9",
+                                                                    "ratingCount": "14 ratings",
+                                                                    "ratingCountV2": "14"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401726",
+                                                            "name": "2 pc Smoky Red Chicken",
+                                                            "category": "Snack",
+                                                            "description": "Spicy, red, grilled chicken",
+                                                            "imageId": "vbrmwts0w2qshfuuf2fi",
+                                                            "inStock": 1,
+                                                            "price": 24857,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.8",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401730",
+                                                            "name": "2 pc Hot & Crispy Chicken",
+                                                            "category": "Snack",
+                                                            "description": "Signature Hot & crispy chicken",
+                                                            "imageId": "zoft44ahx3iognqn5atm",
+                                                            "inStock": 1,
+                                                            "price": 22952,
+                                                            "finalPrice": 17900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.7",
+                                                                    "ratingCount": "57 ratings",
+                                                                    "ratingCountV2": "57"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401719",
+                                                            "name": "1 pc Smoky Red Chicken",
+                                                            "category": "Snack",
+                                                            "description": "Spicy, red, grilled chicken",
+                                                            "imageId": "c8386ojjckilepke2amw",
+                                                            "inStock": 1,
+                                                            "price": 12476,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401723",
+                                                            "name": "1 pc Hot & Crispy Chicken",
+                                                            "category": "Snack",
+                                                            "description": "Signature Hot & crispy chicken",
+                                                            "imageId": "pss6auktmzkk1iaclhj2",
+                                                            "inStock": 1,
+                                                            "price": 11524,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Sides & Beverage",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "120066261",
+                                                            "name": "Chocolate Lava Cake",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "New Soft Chocolate cake with a gooey center- perfect chocolaty end to every meal",
+                                                            "imageId": "thb7rrdooctsnknsnatz",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 10857,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.5",
+                                                                    "ratingCount": "30 ratings",
+                                                                    "ratingCountV2": "30"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "55440462",
+                                                            "name": "Choco Mud Pie",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "Chocolate lovers unite! Say hello to our delicous, new, creamy chocolate & cake dessert- a must try! ",
+                                                            "imageId": "iuo72cfuxpoxrubh0awo",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 12857,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "40 ratings",
+                                                                    "ratingCountV2": "40"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "69508771",
+                                                            "name": "Coffee Mousse Cake",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "Coffee, chocolate, cake…what's not to love? Enjoy our delicious, new dessert for those coffee-licious temptations!",
+                                                            "imageId": "fuesmq2mnk8vorhghiqy",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 12857,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.2",
+                                                                    "ratingCount": "13 ratings",
+                                                                    "ratingCountV2": "13"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95810822",
+                                                            "name": "Spicy Mix Fries -Large",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "Crispy fries with a spicy chilli lime sprinkle",
+                                                            "imageId": "vo06lcwwlo6tzrn7xts9",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13905,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "14 ratings",
+                                                                    "ratingCountV2": "14"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "95810817",
+                                                            "name": "Spicy Mix Fries -Medium",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "Crispy fries with a spicy chilli lime sprinkle",
+                                                            "imageId": "aymgfo4eludzx1ibhfja",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 11429,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.1",
+                                                                    "ratingCount": "8 ratings",
+                                                                    "ratingCountV2": "8"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "74562715",
+                                                            "name": "Tandoori Masala Dip",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "Special tandoori flavor dip to add a twist to your meal",
+                                                            "imageId": "mwwcpl5ffuwgxvepeaqy",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2857,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "34 ratings",
+                                                                    "ratingCountV2": "34"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401713",
+                                                            "name": "Large Fries",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "Jazz up your meal with crispy fries",
+                                                            "imageId": "e4stbqo2zdpc2ukilb01",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 11905,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "106401712",
+                                                            "name": "Medium Fries",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "Jazz up your meal with crispy fries",
+                                                            "imageId": "e4stbqo2zdpc2ukilb01",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9905,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.2",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "63005767",
+                                                            "name": "Pepsi PET 475ml",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "Cheers to fizz that makes you Rise Up Baby! Order Pepsi to make your food rise up to your level of awesome!",
+                                                            "imageId": "tsagwj8ozyfxouvlx5go",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5714,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "118 ratings",
+                                                                    "ratingCountV2": "118"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "120460280",
+                                                            "name": "Pepsi Can 300ML",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "Cheers to fizz that makes you Rise Up Baby! Order Pepsi to make your food rise up to your level of awesome!",
+                                                            "imageId": "yhkalm13scnwawtqoebx",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5714,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.6",
+                                                                    "ratingCount": "39 ratings",
+                                                                    "ratingCountV2": "39"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "120460276",
+                                                            "name": "7UP Can 300ML",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "7UP is the ultimate Super-Duper Refresher. Every sip of this crisp lemon flavour refreshes you to the core.",
+                                                            "imageId": "wb1pfru0qksmt131h5uu",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5714,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.9",
+                                                                    "ratingCount": "21 ratings",
+                                                                    "ratingCountV2": "21"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "120460274",
+                                                            "name": "Pepsi Black Can 300ML",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "Enjoy Pepsi Black to make your food rise up to max levels of awesome with Zero sugar and Zero guilt!",
+                                                            "imageId": "t5kje09eov5hsfgt90cy",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5714,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.8",
+                                                                    "ratingCount": "67 ratings",
+                                                                    "ratingCountV2": "67"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "120460271",
+                                                            "name": "Mirinda Can 300ML",
+                                                            "category": "Sides & Beverage",
+                                                            "description": "Great orange taste and sparking bubbles encourage you to be carefree, spontaneous and playful!",
+                                                            "imageId": "hoxyuosfrlevghoho7u9",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5714,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {}
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "6 ratings",
+                                                                    "ratingCountV2": "6"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 13617011000464"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "KFC",
+                                            "area": "Basheer Bagh",
+                                            "completeAddress": "Yum Restaurants -(India)- PVT LTD|Ground Floor, H No: 5-9-322,T. S. No. 86, Ward No. 51, Block F, Abids Road, Opp SBH Bank, Gun Foundry, Hyderabad, Telangana 500001"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "f5f65f2f-34a0-405d-b678-abbb3e5ddd4b",
+    "sid": "aho8f0ac-fb68-4a0b-9c7b-a11e966f7125",
+    "deviceId": "83f10332-37a1-5f04-8f33-581f8b0b88ce",
+    "csrfToken": "G3zuUOcLhpli-zyerpAXVLrKUsmaSArJKT0NEtZA"
+}
