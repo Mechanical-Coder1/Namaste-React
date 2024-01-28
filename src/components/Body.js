@@ -22,13 +22,13 @@ const Body = () => {
 
     const data = await response.json();
     // console.log(data);
-    console.log(data.data.cards[2].card.card.gridElements.infoWithStyle.restaurants)
+    console.log(data.data.cards[4].card.card.gridElements.infoWithStyle.restaurants)
 
     setListOfRestaurents(
-      data.data.cards[2].card.card.gridElements.infoWithStyle.restaurants
+      data.data.cards[4].card.card.gridElements.infoWithStyle.restaurants
     );
     setFilteredListOfRestaurents(
-      data.data.cards[2].card.card.gridElements.infoWithStyle.restaurants
+      data.data.cards[4].card.card.gridElements.infoWithStyle.restaurants
     );
   };
 
